@@ -37,7 +37,7 @@ public class Elefante {
     }
     
     public float conversion(){
-        float kilogramosE = this.toneladaE*1000;
+        float kilogramosE = (float) (this.toneladaE/0.001);
         return kilogramosE;
     }
  //----------Main
